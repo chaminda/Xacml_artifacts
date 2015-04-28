@@ -40,4 +40,7 @@
             <send/>
          </outSequence>
       </resource>
+    <handlers>
+       <handler class="org.wso2.rest.BasicAuthHandler"/>
+    </handlers>
    </api>
