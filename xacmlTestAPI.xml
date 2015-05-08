@@ -1,5 +1,5 @@
   <api name="xacmlTestAPI" context="/Weather">
-      <resource methods="POST GET" uri-template="/getWeather/{city}">
+      <resource methods="POST GET" uri-template="/getWeather/{city}" protocol="https">
          <inSequence>
             <property name="xacml_use_rest" value="true" scope="axis2"/>
             <property name="xacml_resource_prefix" value="salary" scope="axis2"/>
